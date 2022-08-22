@@ -1,0 +1,29 @@
+.filter{
+    border: none; 
+    border-radius: 20px;
+    background-color: #ffff;
+    height: 40px;
+    margin-bottom: 0px!important;
+    padding: 15px;
+    padding-top: 12px;
+    width: 200px;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    transition: width .4s;
+}
+
+Form.show{
+    display: none;
+}
+
+.filter:focus {
+    border: none;
+    box-shadow: 0 2px 5px 1px rgba(64, 67, 60, 0.16);
+    transition: width .4s;
+} 
+
+.filter::placeholder{
+    color: #333;
+    opacity: .4;
+    font-size: 15px;
+}
+
